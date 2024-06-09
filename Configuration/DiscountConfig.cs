@@ -42,15 +42,15 @@ namespace APBD_kol.Configuration
             new()
             {
                 IdDiscount = 2,
-                Value = 12,
+                Value = 15,
                 DateFrom = DateTime.Now,
-                DateTo = DateTime.Now.AddDays(60),
+                DateTo = DateTime.Now.AddDays(80),
                 IdClient = 2
             },
             new()
             {
                 IdDiscount = 3,
-                Value = 15,
+                Value = 30,
                 DateFrom = DateTime.Now,
                 DateTo = DateTime.Now.AddDays(90),
                 IdClient = 3
